@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:workout_timer/components/intime.dart';
+import 'package:workout_timer/components/in_time.dart';
 import 'package:workout_timer/components/stopwatch.dart';
 
 class Workout extends StatelessWidget {
