@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 class PlusOrMinusButton extends StatelessWidget {
   final Color color;
   final IconData icondata;
+  final Function()? function;
   const PlusOrMinusButton(
-      {required this.color, required this.icondata, super.key});
+      {required this.color, this.function, required this.icondata, super.key});
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: function,
       style: ElevatedButton.styleFrom(
           shape: const CircleBorder(),
           backgroundColor: color,
