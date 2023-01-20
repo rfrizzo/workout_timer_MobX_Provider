@@ -1,6 +1,8 @@
 # workout_timer
 
-A new Flutter project.
+This is a Flutter Dart Project.
+We use on hand a Stopwatch to WorkOut.
+You will se MobX and Provider Working toghether.
 
 ## Getting Started
 
